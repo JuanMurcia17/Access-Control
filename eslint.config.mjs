@@ -12,6 +12,13 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Hardhat files (CJS)
+    "hardhat.config.cjs",
+    "scripts/**",
+    "test/**",
+    "artifacts/**",
+    "cache/**",
+    "typechain-types/**",
   ]),
 ]);
 
